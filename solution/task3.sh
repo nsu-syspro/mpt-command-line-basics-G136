@@ -3,4 +3,4 @@
 set -e
 
 
-basename --multiple $(find . -iname '*.txt') | sort
+basename --multiple $(find . -type f -iname '*.txt') | sort
